@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Composition name="Composition" uniqueId="1499333061498" numDecks="14" currentDeckIndex="0" numLayers="2" numColumns="14" compositionIsRelative="0">
+	<versionInfo name="Resolume Arena" majorVersion="6" minorVersion="0" microVersion="7" revision="60787"/>
+	<CompositionInfo name="COMPANION Template" description="Template Composition " width="1920" height="1080">
+		<DeckInfo name="DECK 1" id="1569951928144" closed="0"/>
+		<DeckInfo name="DECK 2" id="1569951929886" closed="0"/>
+		<DeckInfo name="DECK 3" id="1569951929917" closed="0"/>
+		<DeckInfo name="DECK 4" id="1569951929947" closed="0"/>
+		<DeckInfo name="DECK 5" id="1569951929977" closed="0"/>
+		<DeckInfo name="DECK 6" id="1569951929979" closed="0"/>
+		<DeckInfo name="DECK 7" id="1569951929982" closed="0"/>
+		<DeckInfo name="DECK 8" id="1569951929984" closed="0"/>
+		<DeckInfo name="DECK 9" id="1569951929986" closed="0"/>
+		<DeckInfo name="DECK 10" id="1569951929988" closed="0"/>
+		<DeckInfo name="DECK 11" id="1569951929989" closed="0"/>
+		<DeckInfo name="DECK 12" id="1569951929992" closed="0"/>
+		<DeckInfo name="DECK 13" id="1569951929994" closed="0"/>
+		<DeckInfo name="DECK 14" id="1569951929995" closed="0"/>
+	</CompositionInfo>
+	<Params name="Params">
+		<Param name="Name" default="" value="COMPANION Template"/>
+		<Param name="Description" default="" value="Template Composition "/>
+		<ParamChoice name="Beat Snap" default="5" value="1" storeChoices="0"/>
+		<Param name="KeyboardShortcutPreset" default="" value="Default"/>
+		<Param name="MidiShortcutPreset" default="" value="Default"/>
+		<Param name="OscShortcutPreset" default="" value="OutputAllMessages"/>
+		<Param name="DmxShortcutPreset" default="" value="Default"/>
+	</Params>
+	<CompositionView name="CompositionObjectView">
+		<FoldParams name="FoldParams">
+			<FoldState component="/compositionproperties/dashboard/" folded="0"/>
+		</FoldParams>
+	</CompositionView>
+	<AudioTrack name="AudioTrack">
+		<AudioEffectChain name="AudioEffectChain"/>
+	</AudioTrack>
+	<VideoTrack name="VideoTrack">
+		<Params name="Params">
+			<ParamRange storage="3" name="Width" default="1920" value="1920"/>
+			<ParamRange storage="3" name="Height" default="1080" value="1080"/>
+			<ParamRange name="FrameRate" default="0" value="50"/>
+		</Params>
+		<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueId="RenderPassChain" baseType="RenderPassChain">
+			<RenderPass storage="0" name="Transform" type="Transform" uniqueId="17122039101699797593" baseType="Effect" index="0">
+				<View name="View" bCanBeDisabled="0" bCanBeRemoved="0"/>
+			</RenderPass>
+		</RenderPass>
+		<ChoosableMixer name="Blend"/>
+	</VideoTrack>
+	<Layer uniqueId="1569951928179" layerIndex="0">
+		<Params name="Params"/>
+		<ClipTransition name="ClipTransition"/>
+		<LayerView name="LayerView">
+			<FoldParams name="FoldParams"/>
+		</LayerView>
+		<AudioTrack name="AudioTrack">
+			<AudioEffectChain name="AudioEffectChain"/>
+		</AudioTrack>
+		<VideoTrack name="VideoTrack">
+			<Params name="Params">
+				<ParamRange storage="3" name="Width" default="1920" value="1920"/>
+				<ParamRange storage="3" name="Height" default="1080" value="1080"/>
+			</Params>
+			<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueId="RenderPassChain" baseType="RenderPassChain">
+				<RenderPass storage="0" name="Transform" type="Transform" uniqueId="17122039101699797593" baseType="Effect" index="0">
+					<View name="View" bCanBeDisabled="0" bCanBeRemoved="0"/>
+				</RenderPass>
+			</RenderPass>
+			<ChoosableMixer name="Blend">
+				<Params name="Params">
+					<ParamChoice storage="3" name="Blend Mode" default="67464114" value="67464114" storeChoices="0"/>
+				</Params>
+				<RenderPass name="Add" type="Add" uniqueId="A005" baseType="Mixer"/>
+			</ChoosableMixer>
+			<ChoosableMixer name="Transition">
+				<RenderPass name="Alpha" type="Alpha" uniqueId="A006" baseType="Mixer"/>
+			</ChoosableMixer>
+		</VideoTrack>
+	</Layer>
+	<Layer uniqueId="1569951928180" layerIndex="1">
+		<Params name="Params"/>
+		<ClipTransition name="ClipTransition"/>
+		<LayerView name="LayerView">
+			<FoldParams name="FoldParams"/>
+		</LayerView>
+		<AudioTrack name="AudioTrack">
+			<AudioEffectChain name="AudioEffectChain"/>
+		</AudioTrack>
+		<VideoTrack name="VideoTrack">
+			<Params name="Params">
+				<ParamRange storage="3" name="Width" default="1920" value="1920"/>
+				<ParamRange storage="3" name="Height" default="1080" value="1080"/>
+			</Params>
+			<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueId="RenderPassChain" baseType="RenderPassChain">
+				<RenderPass storage="0" name="Transform" type="Transform" uniqueId="17122039101699797593" baseType="Effect" index="0">
+					<View name="View" bCanBeDisabled="0" bCanBeRemoved="0"/>
+				</RenderPass>
+			</RenderPass>
+			<ChoosableMixer name="Blend">
+				<Params name="Params">
+					<ParamChoice storage="3" name="Blend Mode" default="67464114" value="67464114" storeChoices="0"/>
+				</Params>
+				<RenderPass name="Add" type="Add" uniqueId="A005" baseType="Mixer"/>
+			</ChoosableMixer>
+			<ChoosableMixer name="Transition">
+				<RenderPass name="Alpha" type="Alpha" uniqueId="A006" baseType="Mixer"/>
+			</ChoosableMixer>
+		</VideoTrack>
+	</Layer>
+	<Column uniqueId="1569951928171" columnIndex="0">
+		<Params name="Params">
+			<Param name="Name" default="Column #" value="1 BLACK"/>
+		</Params>
+	</Column>
+	<Column uniqueId="1569951928172" columnIndex="1">
+		<Params name="Params">
+			<Param name="Name" default="Column #" value="2"/>
+		</Params>
+	</Column>
+	<Column uniqueId="1569951928173" columnIndex="2">
+		<Params name="Params">
+			<Param name="Name" default="Column #" value="3"/>
+		</Params>
+	</Column>
+	<Column uniqueId="1569951928174" columnIndex="3">
+		<Params name="Params">
+			<Param name="Name" default="Column #" value="4"/>
+		</Params>
+	</Column>
+	<Column uniqueId="1569951928175" columnIndex="4">
+		<Params name="Params">
+			<Param name="Name" default="Column #" value="5"/>
+		</Params>
+	</Column>
+	<Column uniqueId="1569951928176" columnIndex="5">
+		<Params name="Params">
+			<Param name="Name" default="Column #" value="6"/>
+		</Params>
+	</Column>
+	<Column uniqueId="1569951928177" columnIndex="6">
+		<Params name="Params">
+			<Param name="Name" default="Column #" value="7"/>
+		</Params>
+	</Column>
+	<Column uniqueId="1569951928178" columnIndex="7">
+		<Params name="Params">
+			<Param name="Name" default="Column #" value="8"/>
+		</Params>
+	</Column>
+	<Column uniqueId="1569951929170" columnIndex="8">
+		<Params name="Params">
+			<Param name="Name" default="Column #" value="9"/>
+		</Params>
+	</Column>
+	<Column uniqueId="1569951929173" columnIndex="9">
+		<Params name="Params">
+			<Param name="Name" default="Column #" value="10"/>
+		</Params>
+	</Column>
+	<Column uniqueId="1569951929176" columnIndex="10">
+		<Params name="Params">
+			<Param name="Name" default="Column #" value="11"/>
+		</Params>
+	</Column>
+	<Column uniqueId="1569951929179" columnIndex="11">
+		<Params name="Params">
+			<Param name="Name" default="Column #" value="12"/>
+		</Params>
+	</Column>
+	<Column uniqueId="1569951929182" columnIndex="12">
+		<Params name="Params">
+			<Param name="Name" default="Column #" value="13"/>
+		</Params>
+	</Column>
+	<Column uniqueId="1569951929185" columnIndex="13">
+		<Params name="Params">
+			<Param name="Name" default="Column #" value="14"/>
+		</Params>
+	</Column>
+	<CrossFader name="CrossFader">
+		<Params name="Params">
+			<ParamRange name="Phase" default="0" value="-1"/>
+			<ParamChoice name="Behaviour" default="0" value="3" storeChoices="0"/>
+			<ParamChoice name="Curve" default="0" value="1" storeChoices="0"/>
+		</Params>
+		<AudioTrack name="AudioTrack">
+			<AudioEffectChain name="AudioEffectChain"/>
+		</AudioTrack>
+		<VideoTrack name="VideoTrack">
+			<Params name="Params">
+				<ParamRange storage="3" name="Width" default="1920" value="1920"/>
+				<ParamRange storage="3" name="Height" default="1080" value="1080"/>
+			</Params>
+			<RenderPass name="RenderPassChain" type="RenderPassChain" uniqueId="RenderPassChain" baseType="RenderPassChain">
+				<RenderPass name="Transform" type="Transform" uniqueId="17122039101699797593" baseType="Effect" index="0">
+					<View name="View" bCanBeDisabled="0" bCanBeRemoved="0"/>
+				</RenderPass>
+			</RenderPass>
+			<ChoosableMixer name="Blend">
+				<Params name="Params">
+					<ParamChoice name="Blend Mode" default="0" value="67464115" storeChoices="0"/>
+				</Params>
+				<RenderPass name="Alpha" type="Alpha" uniqueId="A006" baseType="Mixer"/>
+			</ChoosableMixer>
+			<ChoosableMixer name="Blend mode">
+				<Params name="Params">
+					<ParamChoice name="Blend Mode" default="0" value="67464115" storeChoices="0"/>
+				</Params>
+				<RenderPass name="Alpha" type="Alpha" uniqueId="A006" baseType="Mixer"/>
+			</ChoosableMixer>
+		</VideoTrack>
+	</CrossFader>
+	<TempoController name="TempoController"/>
+	<Deck name="Deck" uniqueId="1569951928144" closed="0" numLayers="2" numColumns="14" deckIndex="0">
+		<Params name="Params">
+			<Param name="Name" default="empty" value="DECK 1"/>
+		</Params>
+		<ColumnAttributes index="0" name="1 BLACK" color="0"/>
+		<ColumnAttributes index="1" name="2" color="0"/>
+		<ColumnAttributes index="2" name="3" color="0"/>
+		<ColumnAttributes index="3" name="4" color="0"/>
+		<ColumnAttributes index="4" name="5" color="0"/>
+		<ColumnAttributes index="5" name="6" color="0"/>
+		<ColumnAttributes index="6" name="7" color="0"/>
+		<ColumnAttributes index="7" name="8" color="0"/>
+		<ColumnAttributes index="8" name="9" color="0"/>
+		<ColumnAttributes index="9" name="10" color="0"/>
+		<ColumnAttributes index="10" name="11" color="0"/>
+		<ColumnAttributes index="11" name="12" color="0"/>
+		<ColumnAttributes index="12" name="13" color="0"/>
+		<ColumnAttributes index="13" name="14" color="0"/>
+	</Deck>
+	<Deck name="Deck" uniqueId="1569951929886" numLayers="2" numColumns="14" closed="0" deckIndex="1">
+		<ColumnAttributes index="0" name="1 BLACK" color="0"/>
+		<ColumnAttributes index="1" name="2" color="0"/>
+		<ColumnAttributes index="2" name="3" color="0"/>
+		<ColumnAttributes index="3" name="4" color="0"/>
+		<ColumnAttributes index="4" name="5" color="0"/>
+		<ColumnAttributes index="5" name="6" color="0"/>
+		<ColumnAttributes index="6" name="7" color="0"/>
+		<ColumnAttributes index="7" name="8" color="0"/>
+		<ColumnAttributes index="8" name="9" color="0"/>
+		<ColumnAttributes index="9" name="10" color="0"/>
+		<ColumnAttributes index="10" name="11" color="0"/>
+		<ColumnAttributes index="11" name="12" color="0"/>
+		<ColumnAttributes index="12" name="13" color="0"/>
+		<ColumnAttributes index="13" name="14" color="0"/>
+		<Params name="Params">
+			<Param name="Name" default="empty" value="DECK 2"/>
+		</Params>
+	</Deck>
+	<Deck name="Deck" uniqueId="1569951929917" numLayers="2" numColumns="14" closed="0" deckIndex="2">
+		<ColumnAttributes index="0" name="1 BLACK" color="0"/>
+		<ColumnAttributes index="1" name="2" color="0"/>
+		<ColumnAttributes index="2" name="3" color="0"/>
+		<ColumnAttributes index="3" name="4" color="0"/>
+		<ColumnAttributes index="4" name="5" color="0"/>
+		<ColumnAttributes index="5" name="6" color="0"/>
+		<ColumnAttributes index="6" name="7" color="0"/>
+		<ColumnAttributes index="7" name="8" color="0"/>
+		<ColumnAttributes index="8" name="9" color="0"/>
+		<ColumnAttributes index="9" name="10" color="0"/>
+		<ColumnAttributes index="10" name="11" color="0"/>
+		<ColumnAttributes index="11" name="12" color="0"/>
+		<ColumnAttributes index="12" name="13" color="0"/>
+		<ColumnAttributes index="13" name="14" color="0"/>
+		<Params name="Params">
+			<Param name="Name" default="empty" value="DECK 3"/>
+		</Params>
+	</Deck>
+	<Deck name="Deck" uniqueId="1569951929947" numLayers="2" numColumns="14" closed="0" deckIndex="3">
+		<ColumnAttributes index="0" name="1 BLACK" color="0"/>
+		<ColumnAttributes index="1" name="2" color="0"/>
+		<ColumnAttributes index="2" name="3" color="0"/>
+		<ColumnAttributes index="3" name="4" color="0"/>
+		<ColumnAttributes index="4" name="5" color="0"/>
+		<ColumnAttributes index="5" name="6" color="0"/>
+		<ColumnAttributes index="6" name="7" color="0"/>
+		<ColumnAttributes index="7" name="8" color="0"/>
+		<ColumnAttributes index="8" name="9" color="0"/>
+		<ColumnAttributes index="9" name="10" color="0"/>
+		<ColumnAttributes index="10" name="11" color="0"/>
+		<ColumnAttributes index="11" name="12" color="0"/>
+		<ColumnAttributes index="12" name="13" color="0"/>
+		<ColumnAttributes index="13" name="14" color="0"/>
+		<Params name="Params">
+			<Param name="Name" default="empty" value="DECK 4"/>
+		</Params>
+	</Deck>
+	<Deck name="Deck" uniqueId="1569951929977" numLayers="2" numColumns="14" closed="0" deckIndex="4">
+		<ColumnAttributes index="0" name="1 BLACK" color="0"/>
+		<ColumnAttributes index="1" name="2" color="0"/>
+		<ColumnAttributes index="2" name="3" color="0"/>
+		<ColumnAttributes index="3" name="4" color="0"/>
+		<ColumnAttributes index="4" name="5" color="0"/>
+		<ColumnAttributes index="5" name="6" color="0"/>
+		<ColumnAttributes index="6" name="7" color="0"/>
+		<ColumnAttributes index="7" name="8" color="0"/>
+		<ColumnAttributes index="8" name="9" color="0"/>
+		<ColumnAttributes index="9" name="10" color="0"/>
+		<ColumnAttributes index="10" name="11" color="0"/>
+		<ColumnAttributes index="11" name="12" color="0"/>
+		<ColumnAttributes index="12" name="13" color="0"/>
+		<ColumnAttributes index="13" name="14" color="0"/>
+		<Params name="Params">
+			<Param name="Name" default="empty" value="DECK 5"/>
+		</Params>
+	</Deck>
+	<Deck name="Deck" uniqueId="1569951929979" numLayers="2" numColumns="14" closed="0" deckIndex="5">
+		<ColumnAttributes index="0" name="1 BLACK" color="0"/>
+		<ColumnAttributes index="1" name="2" color="0"/>
+		<ColumnAttributes index="2" name="3" color="0"/>
+		<ColumnAttributes index="3" name="4" color="0"/>
+		<ColumnAttributes index="4" name="5" color="0"/>
+		<ColumnAttributes index="5" name="6" color="0"/>
+		<ColumnAttributes index="6" name="7" color="0"/>
+		<ColumnAttributes index="7" name="8" color="0"/>
+		<ColumnAttributes index="8" name="9" color="0"/>
+		<ColumnAttributes index="9" name="10" color="0"/>
+		<ColumnAttributes index="10" name="11" color="0"/>
+		<ColumnAttributes index="11" name="12" color="0"/>
+		<ColumnAttributes index="12" name="13" color="0"/>
+		<ColumnAttributes index="13" name="14" color="0"/>
+		<Params name="Params">
+			<Param name="Name" default="empty" value="DECK 6"/>
+		</Params>
+	</Deck>
+	<Deck uniqueId="1569951929982" name="Deck" numLayers="2" numColumns="14" closed="0" deckIndex="6">
+		<ColumnAttributes index="0" name="1 BLACK" color="0"/>
+		<ColumnAttributes index="1" name="2" color="0"/>
+		<ColumnAttributes index="2" name="3" color="0"/>
+		<ColumnAttributes index="3" name="4" color="0"/>
+		<ColumnAttributes index="4" name="5" color="0"/>
+		<ColumnAttributes index="5" name="6" color="0"/>
+		<ColumnAttributes index="6" name="7" color="0"/>
+		<ColumnAttributes index="7" name="8" color="0"/>
+		<ColumnAttributes index="8" name="9" color="0"/>
+		<ColumnAttributes index="9" name="10" color="0"/>
+		<ColumnAttributes index="10" name="11" color="0"/>
+		<ColumnAttributes index="11" name="12" color="0"/>
+		<ColumnAttributes index="12" name="13" color="0"/>
+		<ColumnAttributes index="13" name="14" color="0"/>
+		<Params name="Params">
+			<Param name="Name" default="empty" value="DECK 7"/>
+		</Params>
+	</Deck>
+	<Deck uniqueId="1569951929984" name="Deck" numLayers="2" numColumns="14" closed="0" deckIndex="7">
+		<ColumnAttributes index="0" name="1 BLACK" color="0"/>
+		<ColumnAttributes index="1" name="2" color="0"/>
+		<ColumnAttributes index="2" name="3" color="0"/>
+		<ColumnAttributes index="3" name="4" color="0"/>
+		<ColumnAttributes index="4" name="5" color="0"/>
+		<ColumnAttributes index="5" name="6" color="0"/>
+		<ColumnAttributes index="6" name="7" color="0"/>
+		<ColumnAttributes index="7" name="8" color="0"/>
+		<ColumnAttributes index="8" name="9" color="0"/>
+		<ColumnAttributes index="9" name="10" color="0"/>
+		<ColumnAttributes index="10" name="11" color="0"/>
+		<ColumnAttributes index="11" name="12" color="0"/>
+		<ColumnAttributes index="12" name="13" color="0"/>
+		<ColumnAttributes index="13" name="14" color="0"/>
+		<Params name="Params">
+			<Param name="Name" default="empty" value="DECK 8"/>
+		</Params>
+	</Deck>
+	<Deck uniqueId="1569951929986" name="Deck" numLayers="2" numColumns="14" closed="0" deckIndex="8">
+		<ColumnAttributes index="0" name="1 BLACK" color="0"/>
+		<ColumnAttributes index="1" name="2" color="0"/>
+		<ColumnAttributes index="2" name="3" color="0"/>
+		<ColumnAttributes index="3" name="4" color="0"/>
+		<ColumnAttributes index="4" name="5" color="0"/>
+		<ColumnAttributes index="5" name="6" color="0"/>
+		<ColumnAttributes index="6" name="7" color="0"/>
+		<ColumnAttributes index="7" name="8" color="0"/>
+		<ColumnAttributes index="8" name="9" color="0"/>
+		<ColumnAttributes index="9" name="10" color="0"/>
+		<ColumnAttributes index="10" name="11" color="0"/>
+		<ColumnAttributes index="11" name="12" color="0"/>
+		<ColumnAttributes index="12" name="13" color="0"/>
+		<ColumnAttributes index="13" name="14" color="0"/>
+		<Params name="Params">
+			<Param name="Name" default="empty" value="DECK 9"/>
+		</Params>
+	</Deck>
+	<Deck uniqueId="1569951929988" name="Deck" numLayers="2" numColumns="14" closed="0" deckIndex="9">
+		<ColumnAttributes index="0" name="1 BLACK" color="0"/>
+		<ColumnAttributes index="1" name="2" color="0"/>
+		<ColumnAttributes index="2" name="3" color="0"/>
+		<ColumnAttributes index="3" name="4" color="0"/>
+		<ColumnAttributes index="4" name="5" color="0"/>
+		<ColumnAttributes index="5" name="6" color="0"/>
+		<ColumnAttributes index="6" name="7" color="0"/>
+		<ColumnAttributes index="7" name="8" color="0"/>
+		<ColumnAttributes index="8" name="9" color="0"/>
+		<ColumnAttributes index="9" name="10" color="0"/>
+		<ColumnAttributes index="10" name="11" color="0"/>
+		<ColumnAttributes index="11" name="12" color="0"/>
+		<ColumnAttributes index="12" name="13" color="0"/>
+		<ColumnAttributes index="13" name="14" color="0"/>
+		<Params name="Params">
+			<Param name="Name" default="empty" value="DECK 10"/>
+		</Params>
+	</Deck>
+	<Deck name="Deck" uniqueId="1569951929989" numLayers="2" numColumns="14" closed="0" deckIndex="10">
+		<ColumnAttributes index="0" name="1 BLACK" color="0"/>
+		<ColumnAttributes index="1" name="2" color="0"/>
+		<ColumnAttributes index="2" name="3" color="0"/>
+		<ColumnAttributes index="3" name="4" color="0"/>
+		<ColumnAttributes index="4" name="5" color="0"/>
+		<ColumnAttributes index="5" name="6" color="0"/>
+		<ColumnAttributes index="6" name="7" color="0"/>
+		<ColumnAttributes index="7" name="8" color="0"/>
+		<ColumnAttributes index="8" name="9" color="0"/>
+		<ColumnAttributes index="9" name="10" color="0"/>
+		<ColumnAttributes index="10" name="11" color="0"/>
+		<ColumnAttributes index="11" name="12" color="0"/>
+		<ColumnAttributes index="12" name="13" color="0"/>
+		<ColumnAttributes index="13" name="14" color="0"/>
+		<Params name="Params">
+			<Param name="Name" default="empty" value="DECK 11"/>
+		</Params>
+	</Deck>
+	<Deck uniqueId="1569951929992" name="Deck" numLayers="2" numColumns="14" closed="0" deckIndex="11">
+		<ColumnAttributes index="0" name="1 BLACK" color="0"/>
+		<ColumnAttributes index="1" name="2" color="0"/>
+		<ColumnAttributes index="2" name="3" color="0"/>
+		<ColumnAttributes index="3" name="4" color="0"/>
+		<ColumnAttributes index="4" name="5" color="0"/>
+		<ColumnAttributes index="5" name="6" color="0"/>
+		<ColumnAttributes index="6" name="7" color="0"/>
+		<ColumnAttributes index="7" name="8" color="0"/>
+		<ColumnAttributes index="8" name="9" color="0"/>
+		<ColumnAttributes index="9" name="10" color="0"/>
+		<ColumnAttributes index="10" name="11" color="0"/>
+		<ColumnAttributes index="11" name="12" color="0"/>
+		<ColumnAttributes index="12" name="13" color="0"/>
+		<ColumnAttributes index="13" name="14" color="0"/>
+		<Params name="Params">
+			<Param name="Name" default="empty" value="DECK 12"/>
+		</Params>
+	</Deck>
+	<Deck uniqueId="1569951929994" name="Deck" numLayers="2" numColumns="14" closed="0" deckIndex="12">
+		<ColumnAttributes index="0" name="1 BLACK" color="0"/>
+		<ColumnAttributes index="1" name="2" color="0"/>
+		<ColumnAttributes index="2" name="3" color="0"/>
+		<ColumnAttributes index="3" name="4" color="0"/>
+		<ColumnAttributes index="4" name="5" color="0"/>
+		<ColumnAttributes index="5" name="6" color="0"/>
+		<ColumnAttributes index="6" name="7" color="0"/>
+		<ColumnAttributes index="7" name="8" color="0"/>
+		<ColumnAttributes index="8" name="9" color="0"/>
+		<ColumnAttributes index="9" name="10" color="0"/>
+		<ColumnAttributes index="10" name="11" color="0"/>
+		<ColumnAttributes index="11" name="12" color="0"/>
+		<ColumnAttributes index="12" name="13" color="0"/>
+		<ColumnAttributes index="13" name="14" color="0"/>
+		<Params name="Params">
+			<Param name="Name" default="empty" value="DECK 13"/>
+		</Params>
+	</Deck>
+	<Deck name="Deck" uniqueId="1569951929995" numLayers="2" numColumns="14" closed="0" deckIndex="13">
+		<ColumnAttributes index="0" name="1 BLACK" color="0"/>
+		<ColumnAttributes index="1" name="2" color="0"/>
+		<ColumnAttributes index="2" name="3" color="0"/>
+		<ColumnAttributes index="3" name="4" color="0"/>
+		<ColumnAttributes index="4" name="5" color="0"/>
+		<ColumnAttributes index="5" name="6" color="0"/>
+		<ColumnAttributes index="6" name="7" color="0"/>
+		<ColumnAttributes index="7" name="8" color="0"/>
+		<ColumnAttributes index="8" name="9" color="0"/>
+		<ColumnAttributes index="9" name="10" color="0"/>
+		<ColumnAttributes index="10" name="11" color="0"/>
+		<ColumnAttributes index="11" name="12" color="0"/>
+		<ColumnAttributes index="12" name="13" color="0"/>
+		<ColumnAttributes index="13" name="14" color="0"/>
+		<Params name="Params">
+			<Param name="Name" default="empty" value="DECK 14"/>
+		</Params>
+	</Deck>
+</Composition>
+
